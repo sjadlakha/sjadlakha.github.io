@@ -1,0 +1,6 @@
+.gen-container {
+  height: 90vh;
+  border: 1px solid red;
+  background-color: whitesmoke;
+  color: black;
+}

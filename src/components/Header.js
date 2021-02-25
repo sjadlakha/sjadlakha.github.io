@@ -5,9 +5,6 @@ function Header() {
   return (
     <>
       <div className="header">
-        <div className="my-name-container">
-          <h1 id="my-name">Sahaj Adlakha</h1>
-        </div>
         <div className="image-desc-container">
           <div className="profile-image">
             <img
@@ -18,10 +15,8 @@ function Header() {
           </div>
           <div className="desc-container">
             <p className="desc">
-              Hi there, I am a junior year Computer Science student, python
-              developer and web developer.
-              <br /> Know more about me down below
-              <i className="fas fa-smile-wink"></i>
+              I am Sahaj Adlakha <br />
+              <p className="stylish-text">Developer</p>
             </p>
           </div>
         </div>

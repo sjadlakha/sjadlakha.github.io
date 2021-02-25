@@ -1,0 +1,39 @@
+.stick {
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  height: 10vh;
+}
+
+.col {
+  text-align: center;
+  font-size: 2.5vh;
+  background-color: rgb(22, 22, 29);
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+}
+
+.col:hover {
+  background-color: rgb(68, 68, 71);
+  cursor: pointer;
+  border-bottom: 3px solid rgb(192, 192, 199);
+}
+
+.active {
+  background-color: rgb(88, 88, 92);
+  border-bottom: 3px solid rgb(192, 192, 199);
+}
+.active:hover {
+  background-color: rgb(88, 88, 92);
+}
+
+.nav-links {
+  text-decoration: none;
+  color: azure;
+}
+.nav-links:hover {
+  text-decoration: none;
+  color: azure;
+}

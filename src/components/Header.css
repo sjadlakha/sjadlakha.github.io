@@ -4,45 +4,21 @@
   justify-content: center;
   flex-direction: column;
   margin-bottom: 0;
-}
-
-/* Name */
-.my-name-container {
-  background-color: rgba(22, 22, 29, 0.4);
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: sticky;
-  top: 0;
-}
-
-#my-name {
-  font-family: "Caveat", cursive;
-  font-size: 10vh;
-  animation: expand-up 2s ease-out forwards;
-  animation-delay: 1s;
-}
-
-@keyframes expand-up {
-  from {
-    font-size: 0;
-  }
-  to {
-    font-size: 10vh;
-  }
+  height: 100vh;
 }
 
 /* image-description */
 .image-desc-container {
-  background-color: rgba(22, 22, 29, 1);
+  /* background-image: linear-gradient(rgb(22, 22, 29), rgb(22, 22, 29));
+  background-color: black; */
 
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10%;
 }
 
 /* Image */
@@ -50,12 +26,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 3vh 10vh;
+  margin: 7vh 10vh;
   position: relative;
   top: 0;
   z-index: 10;
   animation: move-left 2s ease-out forwards;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
   /* opacity: 0.5; */
 }
 @keyframes move-left {
@@ -70,8 +46,8 @@
 }
 
 .profile {
-  height: 30vh;
-  width: 30vh;
+  height: 40vh;
+  width: 37vh;
   border-radius: 50%;
 }
 
@@ -85,7 +61,7 @@
   align-items: center;
   justify-content: center;
   animation: move-right 2s ease-out forwards;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
 
   opacity: 0.5;
 }
@@ -105,7 +81,7 @@
   text-align: center;
   width: 30vh;
   animation: expand 2s ease-out forwards;
-  animation-delay: 1s;
+  animation-delay: 0.2s;
 }
 
 @keyframes expand {
@@ -113,8 +89,19 @@
     font: size 1vh;
   }
   to {
-    font-size: 4vh;
+    font-size: 7vh;
     width: 30vw;
     padding-right: 5vh;
   }
+}
+
+/* stylish text */
+.stylish-text {
+  border: 4px solid white;
+  width: fit-content;
+  text-align: center;
+  margin: 10px auto 0;
+  padding: 4px;
+  border-style: double;
+  border-bottom-left-radius: 10px;
 }

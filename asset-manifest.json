@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sjadlakha.github.io/static/css/main.b9df5ac3.chunk.css",
+    "main.js": "/sjadlakha.github.io/static/js/main.58d5d09b.chunk.js",
+    "main.js.map": "/sjadlakha.github.io/static/js/main.58d5d09b.chunk.js.map",
+    "runtime-main.js": "/sjadlakha.github.io/static/js/runtime-main.76d444e8.js",
+    "runtime-main.js.map": "/sjadlakha.github.io/static/js/runtime-main.76d444e8.js.map",
+    "static/js/2.9bfa71e1.chunk.js": "/sjadlakha.github.io/static/js/2.9bfa71e1.chunk.js",
+    "static/js/2.9bfa71e1.chunk.js.map": "/sjadlakha.github.io/static/js/2.9bfa71e1.chunk.js.map",
+    "index.html": "/sjadlakha.github.io/index.html",
+    "static/css/main.b9df5ac3.chunk.css.map": "/sjadlakha.github.io/static/css/main.b9df5ac3.chunk.css.map",
+    "static/js/2.9bfa71e1.chunk.js.LICENSE.txt": "/sjadlakha.github.io/static/js/2.9bfa71e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76d444e8.js",
+    "static/js/2.9bfa71e1.chunk.js",
+    "static/css/main.b9df5ac3.chunk.css",
+    "static/js/main.58d5d09b.chunk.js"
+  ]
+}

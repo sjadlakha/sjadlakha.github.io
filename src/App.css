@@ -20,6 +20,7 @@ body {
 
 :root {
   --cultured: #efefefff;
+  --cultured-dim: rgb(184, 184, 184);
   --cerulean-blue: #3454d1ff;
   --turquoise: #34d1bfff;
   --rich-black-fogra-39: #070707ff;
@@ -30,6 +31,7 @@ body {
 
 .particles-bg-canvas-self {
   background-color: var(--rich-black-fogra-39);
+  height: 100vh;
 }
 
 /* * Name and Description */
@@ -68,4 +70,79 @@ body {
   background-color: var(--cultured);
   padding: 5vmin;
 }
-/* card-deck */
+
+/* * Projects */
+
+.projects-heading {
+  font-size: 3rem;
+  color: var(--cultured-dim);
+  text-align: center;
+  /* padding: 0 0 rem; */
+}
+#rule {
+  width: 80%;
+  border: 1px solid var(--cultured-dim);
+  margin-bottom: 2rem;
+}
+
+.list-group-item.active {
+  background-color: var(--turquoise) !important;
+  border-color: var(--turquoise) !important;
+}
+.list-group-item.active:hover {
+  background-color: var(--turquoise);
+  border-color: var(--turquoise);
+}
+
+.projects-container {
+  background-color: var(--rich-black-fogra-39);
+  padding: 7.5vmin;
+}
+
+.project-image {
+  height: inherit;
+  width: inherit;
+  padding: 0.3rem 0;
+}
+.project-tech-stack {
+  width: inherit;
+  padding: 0.5rem 0 0.2rem;
+}
+
+.project-tech-stack span {
+  margin: 0.5rem 0.2rem;
+  font-size: 0.8rem;
+  padding: 0.4rem;
+  word-wrap: break-word;
+}
+
+.project-title {
+  color: var(--cultured);
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--cerise);
+  word-spacing: 0.5rem;
+}
+
+.project-desc {
+  margin-top: 0.5rem;
+  background-color: var(--cultured);
+  color: var(--rich-black-fogra-39);
+  padding: 1rem 1rem;
+  word-spacing: 0.5rem;
+  text-align: justify;
+  border-radius: 2%;
+}
+.project-link a {
+  text-decoration: none;
+  color: var(--cerulean-blue);
+}
+.project-link a:hover {
+  text-decoration: none;
+  color: var(--cerise);
+}
+
+.project-link {
+  text-align: right;
+}

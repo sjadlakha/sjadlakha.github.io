@@ -146,3 +146,27 @@ body {
 .project-link {
   text-align: right;
 }
+
+/* * Experiences */
+
+.experience-item-container img {
+  filter: brightness(40%);
+}
+
+.carousel-caption {
+  bottom: 30% !important;
+  top: 30% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.carousel-caption h3 {
+  /* font-size: 3rem; */
+  text-shadow: 3px 2px var(--rich-black-fogra-39);
+}
+.carousel-caption p {
+  padding-top: 1rem;
+  /* font-size: 1.5rem; */
+}

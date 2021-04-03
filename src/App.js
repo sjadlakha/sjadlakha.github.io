@@ -4,6 +4,7 @@ import Education from "./components/Education";
 import First from "./components/First";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./components/Projects";
+import Experiences from "./components/Experiences";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
       <First />
       <Education />
       <Projects />
+      <Experiences />
     </>
   );
 }

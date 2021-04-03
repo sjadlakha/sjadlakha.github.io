@@ -5,7 +5,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Badge from "react-bootstrap/Badge";
-import Typed from "react-typed";
 
 // media
 import project_img_1 from "../media/project-img-1.png";
@@ -13,6 +12,7 @@ import project_img_2 from "../media/project-img-2.png";
 import project_img_3 from "../media/project-img-3.jpg";
 import project_img_4 from "../media/project-img-4.png";
 import project_img_5 from "../media/project-img-5.png";
+import project_img_6 from "../media/project-img-6.png";
 
 function Projects() {
   return (
@@ -53,7 +53,7 @@ function Projects() {
                       <img
                         className="project-image"
                         src={project_img_1}
-                        alt="project image"
+                        alt="project"
                       />
 
                       <div className="project-tech-stack">
@@ -109,7 +109,7 @@ function Projects() {
                       <img
                         className="project-image"
                         src={project_img_2}
-                        alt="project image"
+                        alt="project"
                       />
 
                       <div className="project-tech-stack">
@@ -163,7 +163,7 @@ function Projects() {
                       <img
                         className="project-image"
                         src={project_img_3}
-                        alt="project image"
+                        alt="project"
                       />
 
                       <div className="project-tech-stack">
@@ -219,7 +219,7 @@ function Projects() {
                       <img
                         className="project-image"
                         src={project_img_4}
-                        alt="project image"
+                        alt="project"
                         style={{ border: "2px solid white" }}
                       />
 
@@ -284,7 +284,7 @@ function Projects() {
                       <img
                         className="project-image"
                         src={project_img_5}
-                        alt="project image"
+                        alt="project"
                       />
 
                       <div className="project-tech-stack">
@@ -341,8 +341,8 @@ function Projects() {
                     <Col md="3">
                       <img
                         className="project-image"
-                        src={project_img_1}
-                        alt="project image"
+                        src={project_img_6}
+                        alt="project"
                       />
 
                       <div className="project-tech-stack">
@@ -373,8 +373,8 @@ function Projects() {
                             login portal using manual SQL injection and
                             automated SQL injection using SQLMap and overcoming
                             them. The future improvement includes use of Machine
-                            Learning models to classify an input string as risky
-                            and avoiding it.
+                            Learning models to classify an input string as
+                            maliciuous or safe.
                           </p>
                         </Col>
                       </Row>

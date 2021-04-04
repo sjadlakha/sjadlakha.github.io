@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82c1b16a.chunk.css",
+    "main.js": "/static/js/main.df111908.chunk.js",
+    "main.js.map": "/static/js/main.df111908.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5a31ddd4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5a31ddd4.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b14a629f.chunk.js": "/static/js/2.b14a629f.chunk.js",
+    "static/js/2.b14a629f.chunk.js.map": "/static/js/2.b14a629f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.82c1b16a.chunk.css.map": "/static/css/main.82c1b16a.chunk.css.map",
+    "static/js/2.b14a629f.chunk.js.LICENSE.txt": "/static/js/2.b14a629f.chunk.js.LICENSE.txt",
+    "static/media/bball.1408b445.jpg": "/static/media/bball.1408b445.jpg",
+    "static/media/dance.29be28ff.jpeg": "/static/media/dance.29be28ff.jpeg",
+    "static/media/dl.4f8e38df.png": "/static/media/dl.4f8e38df.png",
+    "static/media/fball.5320a430.jpeg": "/static/media/fball.5320a430.jpeg",
+    "static/media/lpf.a587cfcc.jpg": "/static/media/lpf.a587cfcc.jpg",
+    "static/media/ms.803ce696.jpeg": "/static/media/ms.803ce696.jpeg",
+    "static/media/mvn.1b8a4137.jpg": "/static/media/mvn.1b8a4137.jpg",
+    "static/media/project-img-1.89862e62.png": "/static/media/project-img-1.89862e62.png",
+    "static/media/project-img-2.f49a0d32.png": "/static/media/project-img-2.f49a0d32.png",
+    "static/media/project-img-3.20c25bb2.jpg": "/static/media/project-img-3.20c25bb2.jpg",
+    "static/media/project-img-4.925b0aae.png": "/static/media/project-img-4.925b0aae.png",
+    "static/media/project-img-5.d5965760.png": "/static/media/project-img-5.d5965760.png",
+    "static/media/project-img-6.8928bca1.png": "/static/media/project-img-6.8928bca1.png",
+    "static/media/sn.cc91e4c6.jpg": "/static/media/sn.cc91e4c6.jpg",
+    "static/media/vit.05a2aaf6.jpeg": "/static/media/vit.05a2aaf6.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a31ddd4.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b14a629f.chunk.js",
+    "static/css/main.82c1b16a.chunk.css",
+    "static/js/main.df111908.chunk.js"
+  ]
+}

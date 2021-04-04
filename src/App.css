@@ -22,8 +22,8 @@ body {
   --cultured: #efefefff;
   --cultured-dim: rgb(184, 184, 184);
   --cerulean-blue: #3454d1ff;
-  --turquoise: #34d1bfff;
-  --rich-black-fogra-39: #070707ff;
+  --turquoise: rgb(52, 209, 191);
+  --rich-black-fogra-39: rgb(7, 7, 7);
   --cerise: #d1345bff;
 }
 
@@ -69,6 +69,7 @@ body {
 .education-container {
   background-color: var(--cultured);
   padding: 5vmin;
+  /* height: 50vh; */
 }
 
 /* * Projects */
@@ -169,4 +170,241 @@ body {
 .carousel-caption p {
   padding-top: 1rem;
   /* font-size: 1.5rem; */
+}
+
+/* *EXC */
+.exc-wrapper {
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--cultured),
+    rgb(7, 7, 7)
+  );
+  width: 100vw;
+  padding: 0 10%;
+}
+
+.exc-container {
+  /* border: 1px solid black; */
+  height: inherit;
+  align-items: center;
+  justify-content: center;
+}
+.exc-item-container {
+  /* border: 1px solid red; */
+  height: 80vh;
+}
+
+.exc-text {
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+  color: var(--cultured);
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.exc-text h1 {
+  text-shadow: 1px 1px var(--rich-black-fogra-39);
+}
+
+#exc-dance {
+  background: rgba(209, 52, 91, 0.9);
+  /* overflow: hidden; */
+  position: relative;
+}
+#exc-dance img {
+  object-fit: cover;
+  opacity: 0.6;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#exc-bball {
+  background: rgba(52, 84, 209, 0.9);
+  /* overflow: hidden; */
+  position: relative;
+}
+#exc-bball img {
+  object-fit: cover;
+  opacity: 0.6;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#exc-fball {
+  background: rgb(52, 209, 191, 0.9);
+  /* overflow: hidden; */
+  position: relative;
+}
+#exc-fball img {
+  object-fit: cover;
+  opacity: 0.6;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .exc-wrapper {
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+  }
+
+  .exc-container {
+    padding: 10% 0;
+    flex-direction: column;
+  }
+  .exc-item-container {
+    max-width: 100% !important;
+    height: 33.33%;
+  }
+}
+
+/* * Social Follow */
+.sf-wrapper {
+  align-items: center;
+  text-align: center;
+  /* height: max-content; */
+  padding: 5% 5%;
+  position: relative;
+  /* overflow: hidden; */
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+}
+.hrule {
+  height: fit-content;
+  padding: 0 !important;
+}
+.sf-wrapper hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 2px solid var(--rich-black-fogra-39);
+  width: 80%;
+}
+
+#sn-bg {
+  object-fit: cover;
+  opacity: 0.6;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sf-heading-container {
+  margin-bottom: 0;
+}
+.sf-heading h1 {
+  font-size: 2rem;
+  text-shadow: 2px 2px var(--cultured-dim);
+  color: black;
+}
+
+.sf-container {
+  height: 20%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.sf-item-container {
+  font-size: 2rem;
+  align-items: center;
+  height: 4rem;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 1rem !important;
+  margin: 1vh 1vw;
+  background-color: var(--cultured);
+  opacity: 0.7;
+  width: 4rem !important;
+  cursor: pointer;
+}
+.sf-item-container:hover {
+  opacity: 1;
+}
+
+.sf-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ln {
+  color: rgba(0, 119, 181, 1);
+}
+#gh {
+  color: rgba(51, 51, 51, 1);
+}
+#ws {
+  color: rgb(7, 94, 84);
+}
+#gm {
+  color: rgb(197, 47, 52);
+}
+#fb {
+  /* bgcolor: rgb(177, 233, 184) */
+  color: rgb(59, 89, 152);
+}
+#ig {
+  color: rgb(225, 48, 108);
+}
+#tg {
+  color: rgb(0, 136, 204);
+}
+#tw {
+  color: rgb(29, 161, 242);
+}
+@media only screen and (max-width: 992px) {
+  .sf-item-container {
+    opacity: 1;
+  }
+}
+a.nostyle:link,
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+  width: inherit;
+}
+
+/* * Footer */
+
+.footer-wrapper {
+  text-align: center;
+  background-color: black;
+  color: var(--cultured);
+  font-weight: 600;
+}
+.footer-container {
+  background-color: rgba(29, 62, 83, 0.5);
+}
+.text-container {
+  padding: 0.3rem 0;
+}
+.copyable {
+  padding: 0.3rem 0;
+}
+.copy-clicked {
+  padding: 0.3rem 0;
+  color: rgb(93, 236, 93);
 }

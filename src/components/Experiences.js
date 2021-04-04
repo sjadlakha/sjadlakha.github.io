@@ -66,6 +66,7 @@ function Experiences() {
         <Carousel.Caption className="experience-text-container">
           <h3>Deep Learning and Computer Vision Python Intern</h3>
           <p>
+            July, 2020 <br></br>
             Attended the internship program conducted by Institution of
             Electronics and Telecommunication Engineers, Mumbai Chapter in
             association with Pantech E-Learning. Worked on several projects

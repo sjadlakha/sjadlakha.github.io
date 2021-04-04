@@ -5,6 +5,10 @@ import First from "./components/First";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./components/Projects";
 import Experiences from "./components/Experiences";
+import Exc from "./components/Exc";
+import SocialFollow from "./components/SocialFollow";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
@@ -13,6 +17,9 @@ function App() {
       <Education />
       <Projects />
       <Experiences />
+      <Exc />
+      <SocialFollow />
+      <Footer />
     </>
   );
 }

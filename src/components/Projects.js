@@ -1,9 +1,7 @@
 import React from "react";
 import ListGroup from "react-bootstrap/ListGroup";
 import Tab from "react-bootstrap/Tab";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
+import { Row, Container, Col } from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";
 
 // media

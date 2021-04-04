@@ -1,5 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 export default function First() {
   return (
     <div className="first-container">
@@ -24,6 +26,10 @@ export default function First() {
             loop
           />
         </div>
+      </div>
+      <br />
+      <div className="third-container">
+        <FontAwesomeIcon icon={faCaretDown} className="down-icon" />
       </div>
     </div>
   );

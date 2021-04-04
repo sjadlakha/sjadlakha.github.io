@@ -24,7 +24,7 @@ function Footer() {
           xs={12}
           sm={6}
           className={copyable ? "copyable" : "copy-clicked"}
-          onClick={() => updateClipboard("url")}
+          onClick={() => updateClipboard("https://sjadlakha.github.io/")}
           style={{ cursor: "pointer" }}
         >
           {copyable ? "Clck to copy shareable link" : "Link Copied!"}

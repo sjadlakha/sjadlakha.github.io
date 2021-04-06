@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif !important;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -27,14 +27,24 @@ body {
 .first-container {
   height: 100vh;
   display: flex;
-  align-items: center;
-  margin-top: auto;
-
   font-size: 10vmin;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.my-image-container > .row {
+  justify-content: center;
+  padding-bottom: 15vh;
+}
+.my-image-col {
+  align-items: center;
+}
+.my-img {
+  height: inherit;
+  width: inherit;
+}
+
 .second-container {
-  display: block;
   padding-left: 2rem;
 }
 .name-is {
@@ -57,12 +67,13 @@ body {
 .third-container {
   padding: 0;
   margin: 0;
-  text-align: center;
-}
-.down-icon {
+  display: flex;
+  justify-content: center;
   position: absolute;
   bottom: 0;
-  left: 48%;
+  width: 100%;
+}
+.down-icon {
   color: rgba(239, 239, 239, 1);
   opacity: 0.5;
   font-size: 3rem;
@@ -71,7 +82,6 @@ body {
 .education-container {
   background-color: var(--cultured);
   padding: 5vmin;
-  /* height: 50vh; */
 }
 
 /* * Projects */
@@ -206,6 +216,7 @@ body {
 .exc-text {
   display: flex;
   height: inherit;
+
   justify-content: center;
   align-items: center;
   color: var(--cultured);
@@ -217,6 +228,11 @@ body {
 }
 .exc-text h1 {
   text-shadow: 1px 1px var(--rich-black-fogra-39);
+  padding-top: 2vh;
+  margin: 0;
+}
+.exc-text {
+  padding-bottom: 2vh;
 }
 
 #exc-dance {
@@ -398,11 +414,11 @@ a.nostyle:visited {
 .footer-wrapper {
   text-align: center;
   background-color: black;
-  color: rgba(239, 239, 239, 0.5);
+  color: var(--rich-black-fogra-39);
   font-weight: 600;
 }
 .footer-container {
-  background-color: rgba(29, 62, 83, 0.5);
+  background-color: rgba(239, 239, 239, 0.7);
 }
 .text-container {
   padding: 0.3rem 0;
@@ -412,5 +428,5 @@ a.nostyle:visited {
 }
 .copy-clicked {
   padding: 0.3rem 0;
-  color: rgba(93, 236, 93, 0.5);
+  color: rgba(3, 117, 3, 0.5);
 }

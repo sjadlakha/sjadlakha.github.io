@@ -29,7 +29,7 @@ function Exc() {
           <img src={fball} alt="fball" />
           <section className="exc-text">
             <h1>Footbal Player</h1>
-            <p>Represented various local clubs anmd showcased my skills</p>
+            <p>Represented various local clubs and showcased my skills</p>
           </section>
         </Col>
       </Row>

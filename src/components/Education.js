@@ -49,7 +49,7 @@ function Education() {
             </Card.Title>
             <Card.Text>
               A Computer Science Engineering student at one of the best
-              universities in India, with an eagreness to learn and grow
+              universities in India, with an eagerness to learn and grow
               constantly.
             </Card.Text>
           </Card.Body>

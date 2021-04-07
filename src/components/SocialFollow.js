@@ -58,21 +58,6 @@ function SocialFollow() {
             <FontAwesomeIcon icon={faGithub} id="gh" className="sf-item" />
           </a>
         </Col>
-        <Col
-          sm={1}
-          md={1}
-          lg={1}
-          className="sf-item-container"
-          style={{ backgroundColor: "#000000" }}
-        >
-          <a
-            className="nostyle"
-            href="https://www.instagram.com/s.aha_j/?r=nametag"
-            target="blank"
-          >
-            <FontAwesomeIcon icon={faInstagram} id="ig" className="sf-item" />
-          </a>
-        </Col>
 
         <Col
           sm={1}
@@ -89,21 +74,7 @@ function SocialFollow() {
             <FontAwesomeIcon icon={faAt} id="gm" className="sf-item" />
           </a>
         </Col>
-        <Col
-          sm={1}
-          md={1}
-          lg={1}
-          className="sf-item-container"
-          style={{ backgroundColor: "#fffff" }}
-        >
-          <a
-            className="nostyle"
-            href="https://www.facebook.com/sj.adlakha23"
-            target="blank"
-          >
-            <FontAwesomeIcon icon={faFacebook} id="fb" className="sf-item" />
-          </a>
-        </Col>
+
         <Col
           sm={1}
           md={1}
@@ -132,22 +103,6 @@ function SocialFollow() {
             target="blank"
           >
             <FontAwesomeIcon icon={faWhatsapp} id="ws" className="sf-item" />
-          </a>
-        </Col>
-
-        <Col
-          sm={1}
-          md={1}
-          lg={1}
-          className="sf-item-container"
-          style={{ backgroundColor: "#aab8c2" }}
-        >
-          <a
-            className="nostyle"
-            href="https://twitter.com/sahaj_adlakha?s=08"
-            target="blank"
-          >
-            <FontAwesomeIcon icon={faTwitter} id="tw" className="sf-item" />
           </a>
         </Col>
       </Row>

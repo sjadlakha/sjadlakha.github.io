@@ -31,7 +31,10 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
+.my-image-container {
+  margin-top: 2vh;
+  padding-top: 2vh;
+}
 .my-image-container > .row {
   justify-content: center;
   padding-bottom: 15vh;

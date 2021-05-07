@@ -8,13 +8,13 @@ function Education() {
     <div className="education-container">
       <div className="education-heading">Education</div>
       <hr class="rule" />
-      <CardDeck style={{ height: "50%" }}>
+      <CardDeck>
         <Card>
           <Card.Img
             variant="top"
             src={mvn}
             alt="M.V.N."
-            style={{ height: "42%" }}
+            style={{ height: "50%" }}
           />
           <Card.Body>
             <Card.Title>Modern Vidya Niketan (2006-2018)</Card.Title>
@@ -49,7 +49,12 @@ function Education() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src={vit} alt="VIT Vellore" />
+          <Card.Img
+            variant="top"
+            src={vit}
+            alt="VIT Vellore"
+            style={{ height: "50%" }}
+          />
           <Card.Body>
             <Card.Title>
               Vellore Institute of Technology, Vellore (2018-2022)

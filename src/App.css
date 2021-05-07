@@ -82,6 +82,18 @@ body {
   font-size: 3rem;
 }
 /* * Education */
+.education-heading {
+  font-size: 3rem;
+  color: var(--rich-black-fogra-39);
+  text-align: center;
+  /* padding: 0 0 rem; */
+}
+.rule {
+  width: 80%;
+  border: 2px solid var(--rich-black-fogra-39);
+  margin-bottom: 2rem;
+}
+
 .education-container {
   background-color: var(--cultured);
   padding: 5vmin;
@@ -168,7 +180,7 @@ body {
   position: relative;
 }
 .experience-item-container img {
-  filter: brightness(40%);
+  filter: brightness(20%);
   object-fit: cover;
   object-position: center;
   height: 100vh;
@@ -189,6 +201,11 @@ body {
 .carousel-caption p {
   padding-top: 1rem;
   /* font-size: 1.5rem; */
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 40px !important ;
+  height: 40px !important;
 }
 
 /* *EXC */
@@ -239,7 +256,7 @@ body {
 }
 
 #exc-dance {
-  background: rgba(209, 52, 91, 0.9);
+  background: rgba(209, 52, 91, 0.5);
   /* overflow: hidden; */
   position: relative;
 }
@@ -254,7 +271,7 @@ body {
   left: 0;
 }
 #exc-bball {
-  background: rgba(52, 84, 209, 0.9);
+  background: rgba(52, 84, 209, 0.5);
   /* overflow: hidden; */
   position: relative;
 }
@@ -269,7 +286,7 @@ body {
   left: 0;
 }
 #exc-fball {
-  background: rgb(52, 209, 191, 0.9);
+  background: rgb(52, 209, 191, 0.5);
   /* overflow: hidden; */
   position: relative;
 }
@@ -428,8 +445,10 @@ a.nostyle:visited {
 }
 .copyable {
   padding: 0.3rem 0;
+  text-align: center;
 }
 .copy-clicked {
   padding: 0.3rem 0;
+  text-align: center;
   color: rgba(3, 117, 3, 0.5);
 }

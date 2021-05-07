@@ -5,9 +5,9 @@ import { Row, Container, Col } from "react-bootstrap";
 import Badge from "react-bootstrap/Badge";
 
 // media
-import project_img_1 from "../media/project-img-1.png";
+import project_img_1 from "../media/project-img-1_new.jpg";
 import project_img_2 from "../media/project-img-2.png";
-import project_img_3 from "../media/project-img-3.jpg";
+import project_img_3 from "../media/project-img-3_new.jpg";
 import project_img_4 from "../media/project-img-4.png";
 import project_img_5 from "../media/project-img-5.png";
 import project_img_6 from "../media/project-img-6.png";
@@ -74,15 +74,15 @@ function Projects() {
                       <Row>
                         <Col>
                           <p className="project-desc">
-                            A social distancing monitoring and alarming system.
-                            The management and safety issues faced by various
-                            store managers during the lockdown period could be
-                            solved to some extent with this application. A
-                            Neural Networks based object detection algorithm put
-                            together with euclidean distance calculation between
-                            identified objects. Generates an alarm as soon as
-                            the distance between identified humans go below the
-                            specified limit.
+                            A social distancing monitoring and alarming system:
+                            Created to help manage the safety issues faced by
+                            various store managers during the lockdown period
+                            and solve them to a large extent. A Neural Networks
+                            based object detection algorithm put together with
+                            euclidean distance calculation between identified
+                            objects. Generates an alarm as soon as the distance
+                            between identified humans go below the specified
+                            limit.
                           </p>
                         </Col>
                       </Row>
@@ -131,12 +131,12 @@ function Projects() {
                       <Row>
                         <Col>
                           <p className="project-desc">
-                            A website that is a one stop destination for all
-                            user medical health details. It provides options
-                            like tracking user’s health, uploading reports and
+                            A website that is a one-stop destination for all
+                            user medical health details. Provides options like
+                            tracking user’s health, uploading reports and
                             prescriptions for easy reference whenever user
-                            visits a doctor, also includes helpful articles on
-                            living a healthy life.
+                            visits a doctor. Also includes articles with health
+                            tips.
                           </p>
                         </Col>
                       </Row>
@@ -189,10 +189,9 @@ function Projects() {
                             created with Flask and Alexa Skills Kit in python.
                             Open database API used for fetching questions for
                             the quiz based on many filters like categories
-                            including General Knowledge, Science, Mythology,
-                            etc. and difficulty levels selected by the
-                            user.Explored Voice User Interface(VUI) powered by
-                            Amazon Alexa.
+                            including General Knowledge, Science, Mythology and
+                            difficulty levels selected by the user. Explored
+                            Voice User Interface (VUI) powered by Amazon Alexa.
                           </p>
                         </Col>
                       </Row>
@@ -244,16 +243,16 @@ function Projects() {
                         <Col>
                           <p className="project-desc">
                             A Machine Learning based web application that takes
-                            as input a URL from the user and predicts if it is
-                            Phishy or not. Backend runs on NodeJs for web
-                            application interface and functionality and Python
-                            for Machine Learning Algorithm. The URL is taken as
-                            the raw input and information like url-length,
-                            redirection links, sub domains, usage of shortening
-                            surface and much more is extracted using various
-                            python libraries like urllib, socket and beautiful
-                            soup. This carefully extracted data is converted
-                            into a processed data to be given as the input for
+                            a URL as input from the user and predicts if it is
+                            Phishy. Backend runs on NodeJs for web application
+                            interface and functionality and Python for Machine
+                            Learning Algorithm. The URL is taken as raw input
+                            and information like url-length, redirection links,
+                            sub domains, usage of shortening surface and much
+                            more is extracted using various python libraries
+                            like urllib, socket and beautifulsoup. This
+                            carefully extracted data is converted into a
+                            processed data to be given as the input for
                             predicting the outcome based on learning of Random
                             Forest and Decision Tree model. The web app helps
                             users to check URL's authenticity to avoid getting
@@ -307,8 +306,8 @@ function Projects() {
                             Cycle Renting System with 2-Step Authentication
                             System and Integrated Mobile Application Built as a
                             solution to the everyday issue of commuting in our
-                            campus, this program is designed to provide a
-                            platform for renting bicycles by people on campus
+                            college campus. This program is designed to provide
+                            a platform for renting bicycles by people on campus
                             from their owners when such bicycles are not
                             otherwise in use. It comprises of a hardware lock
                             based on Arduino, RFID detection and a one-time

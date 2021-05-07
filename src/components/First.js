@@ -16,8 +16,9 @@ export default function First() {
         </Row>
       </Container>
       <div className="second-container">
-        <span className="name-is">I am &nbsp;</span>
-        <span className="name">Sahaj Adlakha,</span>
+        <span className="name-is">I am&nbsp;</span>
+        <span className="name">Sahaj Adlakha</span>
+        <span className="name-is">,</span>
         <div className="a">
           <span>a &nbsp;</span>
           <Typed
@@ -28,10 +29,11 @@ export default function First() {
               "Machine learning enthusiast",
               "Deep learning enthusiast",
               "Great team player",
-              "Termendous team leader",
+              "Tremendous team leader",
             ]}
-            typeSpeed={80}
-            backSpeed={99}
+            typeSpeed={10}
+            backSpeed={2}
+            backDelay={1000}
             // fadeOut={true}
             loop
           />

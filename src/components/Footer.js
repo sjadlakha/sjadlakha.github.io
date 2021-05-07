@@ -17,12 +17,12 @@ function Footer() {
   return (
     <Container className="footer-wrapper" fluid="true">
       <Row className="footer-container">
-        <Col xs={12} sm={6} className="text-container">
+        {/* <Col xs={12} sm={6} className="text-container">
           Made by Sahaj Adlakha (sjadlakha@gmail.com)
-        </Col>
+        </Col> */}
         <Col
-          xs={12}
-          sm={6}
+          // xs={12}
+          // sm={12}
           className={copyable ? "copyable" : "copy-clicked"}
           onClick={() => updateClipboard("https://sjadlakha.github.io/")}
           style={{ cursor: "pointer" }}

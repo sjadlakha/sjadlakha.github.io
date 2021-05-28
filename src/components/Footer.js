@@ -21,13 +21,13 @@ function Footer() {
           Made by Sahaj Adlakha (sjadlakha@gmail.com)
         </Col> */}
         <Col
-          // xs={12}
-          // sm={12}
+          xs={12}
+          sm={12}
           className={copyable ? "copyable" : "copy-clicked"}
           onClick={() => updateClipboard("https://sjadlakha.github.io/")}
           style={{ cursor: "pointer" }}
         >
-          {copyable ? "Clck to copy shareable link" : "Link Copied!"}
+          {copyable ? "Click to copy shareable link" : "Link Copied!"}
         </Col>
       </Row>
     </Container>

@@ -25,6 +25,7 @@ export default function First() {
             className="typed-text"
             strings={[
               "Python developer",
+              "Tableau developer",
               "Web developer",
               "Machine learning enthusiast",
               "Deep learning enthusiast",

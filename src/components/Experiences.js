@@ -27,9 +27,11 @@ function Experiences() {
         />
         <Carousel.Caption className="experience-text-container">
           <h3>
-            Incoming Technology Summer Analyst Intern at Morgan Stanley, India
+            Technology Summer Analyst Intern at Morgan Stanley, India
           </h3>
-          <p>May, 2021 - July,2021</p>
+          <p>May, 2021 - July,2021 <br></br>
+          Working on consolidated Tableau dashboards to enhance the data driven decision process at a senior level.
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="experience-item-container">

@@ -72,7 +72,7 @@ function Education() {
               for securing 820 rank in VITEEE (2018)
             </small>
             <br />
-            <small className="text-muted">CGPA (2018- Present): 9.21/10</small>
+            <small className="text-muted">CGPA (2018- Present): 9.29/10</small>
             <br />
             <small className="text-muted">
               Qualified for top 12 in South-Zone Inter-University Basketball
